@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "artist",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "seller",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "buyer",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "artworkDetails",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "saleValue",
+						"type": "uint256"
+					}
+				],
+				"name": "SaleRecorded",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "artist",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "seller",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "buyer",
+						"type": "address"
+					},
+					{
+						"internalType": "string",
+						"name": "artworkDetails",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "saleValue",
+						"type": "uint256"
+					}
+				],
+				"name": "recordSale",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/YourContract.sol": "YourContract"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/YourContract.sol": {
+			"keccak256": "0xd479e91de734bfe988bbfa2865e4dd614780efa1f6d9211a0be96e4c6f199794",
+			"license": "UNLICENSED",
+			"urls": [
+				"bzz-raw://d320764a76883b8814ac89cb918ef7d2f08cce084746217b26339d51a8b96eb1",
+				"dweb:/ipfs/QmQZWcbh9nLxncNbhgJ9TmB8ZKdgsP28LJ3sT15N3y389u"
+			]
+		}
+	},
+	"version": 1
+}
